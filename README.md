@@ -11,19 +11,19 @@ L'objectif est de __créer une heuristique__ indiquant s'il faut implanter une o
 Enfin nous proposerons une approche différente, inspirée d'un projet similaire mené sur le réseaux des bornes de recharge en Allemagne : https://github.com/akansh12/data-science-Optimal-EV-station-placement. Celle-ci s'appuie sur des librairies de Open Street Map pour étudier la répartition des bornes de recharge selon la proximité avec des lieux publics : écoles, restaurants, espaces verts, etc. Voir les notebooks __Evolution.ipynb__, __Data_collection_Open_Street_Map.ipynb__ et __Prediction_with_OSM_data.ipynb__.
 
 Description des notebooks
-__main.ipynb__ : notebook principal.
-__import_trafic.ipynb__: conversion des données de comptage routier du format .txt à .csv pour la semaine d'étude.
-__transfo_data.ipynb__ : agrégation des variables d'intérêt par carré et par différentes pondérations des valeurs moyennes.
-__cartes_statiques.ipynb__ : carte m2 : distance de la station la plus proche ; et m3 : score (heuristique) par zone.
+- __main.ipynb__ : notebook principal.
+- __import_trafic.ipynb__: conversion des données de comptage routier du format .txt à .csv pour la semaine d'étude.
+- __transfo_data.ipynb__ : agrégation des variables d'intérêt par carré et par différentes pondérations des valeurs moyennes.
+- __cartes_statiques.ipynb__ : carte m2 : distance de la station la plus proche ; et m3 : score (heuristique) par zone.
 __cartes_dynamiques.ipynb__ : carte1 : évolution du taux d'occupation moyen par carré en mesurant avec 1 voisin au cours de la semaine ;
 carte2 : avec 2 voisins ;
 carte3 : taux de congestion moyen du trafic ($k$) par zone au cours de la semaine d'étude.
 _Attention à enlever les commentaires pour l'exécution !_
 
-__Evolution.ipynb__ : prédiction de l'évolution du nombre de stations avec la méthode Prophet
-__Data_collection_Open_Street_Map.ipynb__ : collecte des données via Open Street Map
-__Prediction_with_OSM_data.ipynb__ : prédiction des lieux d'intérêt pour implanter des stations.
-...
+- __Evolution.ipynb__ : prédiction de l'évolution du nombre de stations avec la méthode Prophet
+- __Data_collection_Open_Street_Map.ipynb__ : collecte des données via Open Street Map
+- __Prediction_with_OSM_data.ipynb__ : prédiction des lieux d'intérêt pour implanter des stations.
+
 
 
 
