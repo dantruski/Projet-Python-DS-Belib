@@ -19,9 +19,8 @@ __cartes_dynamiques.ipynb__ : carte1 : évolution du taux d'occupation moyen par
 carte2 : avec 2 voisins ;
 carte3 : taux de congestion moyen du trafic ($k$) par zone au cours de la semaine d'étude.
 _Attention à enlever les commentaires pour l'exécution !_
-- __Evolution.ipynb__ : prédiction de l'évolution du nombre de stations avec la méthode Prophet
 
-Démarche complémentaire : 
+
 - __Data_collection_Open_Street_Map.ipynb__ : collecte des données via Open Street Map
 - __Prediction_with_OSM_data.ipynb__ : prédiction des lieux d'intérêt pour implanter des stations.
 
