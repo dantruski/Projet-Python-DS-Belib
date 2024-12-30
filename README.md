@@ -21,7 +21,7 @@ carte3 : taux de congestion moyen du trafic ($k$) par zone au cours de la semain
 _Attention à enlever les commentaires pour l'exécution !_
 
 
-- __Data_collection_Open_Street_Map.ipynb__ : collecte des données via Open Street Map
+- __Data_collection_Open_Street_Map.ipynb__ : collecte des données via Open Street Map.
 - __Prediction_with_OSM_data.ipynb__ : prédiction des lieux d'intérêt pour implanter des stations.
 
 
